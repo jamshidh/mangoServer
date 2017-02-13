@@ -10,9 +10,5 @@ library
                        Book
   build-depends:       base >= 4.7 && < 5
                      , aeson
-                     , servant
-                     , servant-mock
                      , servant-server
-                     , QuickCheck
-                     , warp
   default-language:    Haskell2010

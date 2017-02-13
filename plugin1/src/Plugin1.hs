@@ -4,7 +4,11 @@
     , TypeOperators
 #-}
 
-module Plugin1 where
+module Plugin1 (
+  API,
+  server,
+  module User
+  ) where
 
 import Servant
 

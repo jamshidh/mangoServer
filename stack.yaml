@@ -3,10 +3,12 @@ packages:
 - plugin1
 - plugin2
 - mangoServer
+- mangoClient
 
 resolver: lts-7.19
 
 ghc-options:
+  mangoClient: -Wall -Werror
+  mangoServer: -Wall -Werror
   plugin1: -Wall -Werror
   plugin2: -Wall -Werror
-  mangoServer: -Wall -Werror

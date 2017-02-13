@@ -4,7 +4,11 @@
     , TypeOperators
 #-}
 
-module Plugin2 where
+module Plugin2 (
+  API,
+  server,
+  module Book
+  ) where
 
 import Servant
 

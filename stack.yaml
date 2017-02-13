@@ -1,0 +1,12 @@
+
+packages:
+- plugin1
+- plugin2
+- mangoServer
+
+resolver: lts-7.19
+
+ghc-options:
+  plugin1: -Wall -Werror
+  plugin2: -Wall -Werror
+  mangoServer: -Wall -Werror

@@ -4,11 +4,13 @@ packages:
 - plugin2
 - mangoServer
 - mangoClient
+- mangoEmbedded
 
 resolver: lts-7.19
 
 ghc-options:
   mangoClient: -Wall -Werror
+  mangoEmbedded: -Wall -Werror
   mangoServer: -Wall -Werror
   plugin1: -Wall -Werror
   plugin2: -Wall -Werror
